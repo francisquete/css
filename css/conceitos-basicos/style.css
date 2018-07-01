@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: indianred;
+}
+
+input[type="text"] {
+  width: 200px;
+  background-color: olivedrab;
+  cursor: no-drop;
+}
+
+#conteudo {
+  background-color: green;
+  color: aliceblue;
+  padding: 30px;
+  width: 80%;
+  max-width: 400px;
+  min-width: 300px;
+}
+
+#exemplo {
+  background-color: red;
+  color: aliceblue;
+  padding: 5px 10px 30px 20px;
+  width: 500px;
+}
+
+#paragrafo {
+  margin-top: 10px;
+  color: tomato;
+  text-indent: 20px;
+  text-shadow: 5px 5px 4px black;
+}
+
+h1 {
+  text-align: right;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: left;
+  text-decoration: overline;
+}
+
+h3 {
+  text-align: center;
+  text-decoration: line-through;
+  text-transform: capitalize;
+}
+
+#bbox {
+  background-color: darkred;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 20px -40px 5px green;
+}
+
+#oks {
+  background-color: red;
+  height: 100px;
+  width: 200px;
+  overflow: scroll;
+}
+
+#bloco {
+  margin: 0 auto;
+  background: green;
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 20%;
+}
+
+#fonts {
+  font-family: Spirax;
+  color: olive;
+}
+
+#cores {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  background: linear-gradient(to left, blue, white, red);
+}
+
+#base {
+  width: 550px;
+  height: 170px;
+  background: red;
+  padding: 10px;
+}
+
+#esquerda {
+  background-color: olive;
+  width: 150px;
+  height: 150px;
+  float: left;
+  padding: 5px;
+}
+
+#centro {
+  background-color: skyblue;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  padding: 5px;
+}
+
+#direita {
+  background-color: blueviolet;
+  width: 150px;
+  height: 150px;
+  float: right;
+  padding: 5px;
+}
+
+#container {
+  background-color: orange;
+  width: 430px;
+  height: 230px;
+  position: relative;
+}
+
+#texto {
+  width: 400px;
+  height: 200px;
+  background-color: greenyellow;
+  position: relative;
+  left: 13px;
+  top: 13px;
+}
