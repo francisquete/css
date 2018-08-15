@@ -3,10 +3,6 @@
   box-sizing: border-box;
 }
 
-h1 {
-  color: indianred;
-}
-
 input[type="text"] {
   width: 200px;
   background-color: olivedrab;
@@ -73,11 +69,6 @@ h3 {
   width: 200px;
   height: 200px;
   border-top-left-radius: 20%;
-}
-
-#fonts {
-  font-family: Spirax;
-  color: olive;
 }
 
 #cores {
